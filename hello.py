@@ -87,3 +87,19 @@ print("x == y?", x == y)
 # identity with "is"
 print("x is y?", x is y)
 print("x is not y?", x is not y)
+
+# None is the singleton value that represents "I don't have anything"
+x = None
+print(x, type(x))
+
+# multiple lines OK in [], {}, ()
+x = [
+    "Fred",
+    "Jim"
+]
+
+# otherwise use backslash to continue
+x = """This is a multiline
+String literal
+"""
+print(x)
